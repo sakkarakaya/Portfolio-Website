@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'a.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I design and create websites beautifully that are fast, easy to use, and built with best practices and love what I do.',
+  paragraphTwo: 'Powered by Wordpress or ReactJS, VS Code and coffee.',
+  paragraphThree: 'I’m naturally curious and perpetually working on improving my skills.',
   resume: 'https://drive.google.com/file/d/1BWpQ35tpNdDsGAWks1uJBFswL5AALNPE/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -29,30 +29,30 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.png',
-    title: '',
-    info: '',
+    title: 'SKS Leben',
+    info: 'Multilingual E-Commerce Website',
     info2: '',
     url: 'https://sksleben.de',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project2.png',
-    title: '',
+    title: 'Juwelier Hanan',
     info: '',
     info2: '',
     url: 'https://juwelierhanan.de',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
@@ -65,30 +65,30 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/sakkarakaya',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
