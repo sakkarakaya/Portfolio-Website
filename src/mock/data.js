@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Juwelier Hanan',
-    info: '',
+    info: 'Implementation of the new website with Wordpress',
     info2: '',
     url: 'https://juwelierhanan.de',
     repo: '', // if no repo, the button will not show up
